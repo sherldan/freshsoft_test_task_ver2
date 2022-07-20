@@ -1,0 +1,57 @@
+
+
+.container { 
+    width: 960px;
+    padding: 100px;
+    }
+
+    .box{
+        height:200px;
+        width:200px;
+        text-align:center;
+        font-size:14px;
+        color:#090;
+        background-color:#ddd;
+        margin-right:10px;
+       }
+
+    /*Стиль хедера*/
+.header{
+    background-image: url('pic.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+
+   .overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+   }
+
+
+   .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    border-radius: 10px;
+}
+.description h1{
+ color: #c59c65 ;
+}
+.description p{
+ color: #c1b49c;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
